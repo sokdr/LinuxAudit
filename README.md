@@ -5,7 +5,7 @@ A simple Bash script to instanlty gather information about your Linux System.
 
 The script checks for the following information:
 
-<h1>1. Linux Kernel Information</h1>
+<p> 1. Linux Kernel Information &#9632; </p>
 2. Current User and ID information
 3.  Linux Distribution Information
 4. Check logged in Users/
