@@ -27,3 +27,6 @@ The script checks for the following information:
 <p>&#9632; 18. Check your Source List file </p>
 <p>&#9632; 19. Check for broken dependencies </p>
 <p>&#9632; 20. MOTD banner message </p>
+
+
+<img src="linuxaudit.PNG" alt="Example" width="500" height="333">
