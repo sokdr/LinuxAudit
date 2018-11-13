@@ -111,7 +111,7 @@ cat /etc/sysctl.conf
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;31m 17. Password Policies///// \e[0m"
+echo -e "\e[0;33m 17. Password Policies///// \e[0m"
 cat /etc/pam.d/common-password
 echo
 echo "###############################################"
