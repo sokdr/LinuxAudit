@@ -3,6 +3,8 @@ Security Audit for Debian Linux Systems
 
 A simple Bash script to instanlty gather information about your Linux System.
 
+Open your Linux terminal enter the following command with permissions (chmod +x LinuxAudit.sh)
+
 The script checks for the following information:
 
 <p>&#9632; 1. Linux Kernel Information </p>
