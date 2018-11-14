@@ -126,8 +126,22 @@ apt-get check
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 20.MOTD banner message \e[0m"
+echo -e "\e[0;33m 20. MOTD banner message \e[0m"
 cat /etc/motd
+echo
+echo "###############################################"
+echo
+echo -e "\e[0;33m 21. List user names \e[0m" 
+cut -d: -f1 /etc/passwd
+echo
+echo "###############################################"
+echo
+echo -e "\e[0;33m 22. Check for null passwords \e[0m"
+users="$(cut -d: -f 1 /etc/passwd)"
+for x in $users
+do
+passwd -S $x |grep "NP"
+done
 echo
 echo "###############################################"
 END=$(date +%s) 
