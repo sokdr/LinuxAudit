@@ -148,6 +148,7 @@ END=$(date +%s)
 DIFF=$(( $END - $START ))
 echo "Script completed in $DIFF seconds :"
 echo
+
 exit 0;
 
 
