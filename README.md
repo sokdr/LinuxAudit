@@ -2,7 +2,7 @@
 <h5>--Security Audit for Debian Linux Systems--</h5>
 <h5>A simple Bash script to instanlty gather information about your Linux System.</h5>
 <h5>Open your Linux terminal enter the following command with permissions (chmod +x LinuxAudit.sh)</h5>
-execute then ./LinuxAudit.sh 
+<h5>then execute ./LinuxAudit.sh with root privileges.</h5>
 
 The script checks for the following information:
 
