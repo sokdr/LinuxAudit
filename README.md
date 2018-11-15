@@ -9,7 +9,7 @@ The script checks for the following information:
 <p>&#9632; 1. Linux Kernel Information </p>
 <p>&#9632; 2. Current User and ID information </p>
 <p>&#9632; 3.  Linux Distribution Information </p>
-<p>&#9632; 4. Check logged in Users </p>
+<p>&#9632; 4. List Current Logged In Users </p>
 <p>&#9632; 5. uptime Information </p>
 <p>&#9632; 6. Running Services </p>
 <p>&#9632; 7. Active internet connections and open ports </p>
