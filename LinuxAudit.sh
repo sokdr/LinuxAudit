@@ -82,7 +82,7 @@ history
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 11. Network connections///// \e[0m"
+echo -e "\e[0;33m 11. Network Interfaces///// \e[0m"
 ifconfig -a
 echo
 echo "###############################################"
