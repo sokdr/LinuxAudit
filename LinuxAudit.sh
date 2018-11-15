@@ -47,7 +47,7 @@ lsb_release -a
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 4. Check logged in Users///// \e[0m"
+echo -e "\e[0;33m 4. List Current Logged In Users///// \e[0m"
 w
 echo
 echo "###############################################"
