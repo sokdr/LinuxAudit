@@ -16,7 +16,7 @@ The script checks for the following information:
 <p>&#9632; 8. Check Available Space </p>
 <p>&#9632; 9. Check Memory </p>
 <p>&#9632; 10. History (Commands) </p>
-<p>&#9632; 11. Network connections </p>
+<p>&#9632; 11. Network Interfaces </p>
 <p>&#9632; 12. IPtable Information </p>
 <p>&#9632; 13. Check Running Processes </p>
 <p>&#9632; 14. Check SSH Configuration </p>
