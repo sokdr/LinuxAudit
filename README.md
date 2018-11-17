@@ -6,7 +6,7 @@
 <h5>chmod +x LinuxAudit.sh</h5>
 <h5>then execute ./LinuxAudit.sh with root privileges.</h5>
 <p>===============================================================</p>
-The script checks for the following information:
+<p>The script checks for the following information:</p>
 
 <p>&#9632; 1. Linux Kernel Information </p>
 <p>&#9632; 2. Current User and ID information </p>
