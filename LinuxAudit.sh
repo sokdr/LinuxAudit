@@ -144,6 +144,11 @@ passwd -S $x |grep "NP"
 done
 echo
 echo "###############################################"
+echo
+echo -e "\e[0;33m 23. IP routing table \e[0m" 
+route
+echo
+echo "###############################################"
 END=$(date +%s) 
 DIFF=$(( $END - $START ))
 echo "Script completed in $DIFF seconds :"
