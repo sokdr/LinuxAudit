@@ -68,7 +68,7 @@ echo
 echo "###############################################"
 echo
 echo -e "\e[0;33m 8. Check Available Space///// \e[0m"
-df
+df -h
 echo
 echo "###############################################"
 echo 
@@ -147,6 +147,11 @@ echo "###############################################"
 echo
 echo -e "\e[0;33m 23. IP routing table \e[0m" 
 route
+echo
+echo "###############################################"
+echo
+echo -e "\e[0;33m 23. Kernel Messages \e[0m" 
+dmesg
 echo
 echo "###############################################"
 END=$(date +%s) 
