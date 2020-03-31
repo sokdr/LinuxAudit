@@ -31,3 +31,4 @@
 <p>&#9632; 21. List user names </p>
 <p>&#9632; 22. Check for null passwords </p>
 <p>&#9632; 23. IP routing table </p>
+<p>&#9632; 24. Kernel Messages </p>
