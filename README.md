@@ -1,8 +1,8 @@
 # LinuxAudit
 <h5>--Security Audit for Linux Systems--</h5>
 <p><h5>***Tested on Debian OS***</p></h5>
-<p><h5>A simple Bash script to instanlty gather information about your Linux System.</h5></p>
-<h5>Open your Linux terminal enter the following command with permissions</h5>
+<p><h5>Bash script to instanlty gather information about your Linux System.</h5></p>
+<h5>Open the terminal and enter the following command</h5>
 <h5>chmod +x LinuxAudit.sh</h5>
 <h5>then execute ./LinuxAudit.sh with root privileges.</h5>
 <p>===============================================================</p>
