@@ -32,4 +32,4 @@
 <p>&#9632; 22. Check for null passwords </p>
 <p>&#9632; 23. IP routing table </p>
 <p>&#9632; 24. Kernel Messages </p>
-<p>&#9632; 25. See upgradable packages </p>
+<p>&#9632; 25. Upgradable Packages </p>
