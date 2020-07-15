@@ -10,11 +10,11 @@
 
 <p>&#9632; 1. Linux Kernel Information </p>
 <p>&#9632; 2. Current User and ID information </p>
-<p>&#9632; 3.  Linux Distribution Information </p>
+<p>&#9632; 3. Linux Distribution Information </p>
 <p>&#9632; 4. List Current Logged In Users </p>
-<p>&#9632; 5. uptime Information </p>
+<p>&#9632; 5. Uptime Information </p>
 <p>&#9632; 6. Running Services </p>
-<p>&#9632; 7. Active internet connections and open ports </p>
+<p>&#9632; 7. Active Internet Connections and Open Ports </p>
 <p>&#9632; 8. Check Available Space </p>
 <p>&#9632; 9. Check Memory </p>
 <p>&#9632; 10. History (Commands) </p>
@@ -22,14 +22,14 @@
 <p>&#9632; 12. IPtable Information </p>
 <p>&#9632; 13. Check Running Processes </p>
 <p>&#9632; 14. Check SSH Configuration </p>
-<p>&#9632; 15. List all packages installed </p>
+<p>&#9632; 15. List all Packages Installed </p>
 <p>&#9632; 16. Network Parameters </p>
 <p>&#9632; 17. Password Policies </p>
-<p>&#9632; 18. Check your Source List file </p>
-<p>&#9632; 19. Check for broken dependencies </p>
+<p>&#9632; 18. Check your Source List File </p>
+<p>&#9632; 19. Check for Broken Dependencies </p>
 <p>&#9632; 20. MOTD banner message </p>
-<p>&#9632; 21. List user names </p>
-<p>&#9632; 22. Check for null passwords </p>
-<p>&#9632; 23. IP routing table </p>
+<p>&#9632; 21. List User Names </p>
+<p>&#9632; 22. Check for Null Passwords </p>
+<p>&#9632; 23. IP Routing Table </p>
 <p>&#9632; 24. Kernel Messages </p>
-<p>&#9632; 25. Upgradable Packages </p>
+<p>&#9632; 25. Check Upgradable Packages </p>
