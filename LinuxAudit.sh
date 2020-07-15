@@ -59,7 +59,7 @@ w
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 5. $HOSTNAME uptime Information///// \e[0m"
+echo -e "\e[0;33m 5. $HOSTNAME Uptime Information///// \e[0m"
 echo
 uptime
 echo
@@ -71,7 +71,7 @@ service --status-all |grep "+"
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 7. Active internet connections and open ports///// \e[0m"
+echo -e "\e[0;33m 7. Active Internet Connections and Open Ports///// \e[0m"
 echo
 netstat -natp
 echo
@@ -118,7 +118,7 @@ echo
 cat /etc/ssh/sshd_config
 echo
 echo "###############################################"
-echo -e "\e[0;33m 15. List all packages installed///// \e[0m"
+echo -e "\e[0;33m 15. List All Packages Installed///// \e[0m"
 apt-cache pkgnames
 echo
 echo "###############################################"
@@ -135,31 +135,31 @@ cat /etc/pam.d/common-password
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 18. Check your Source List file///// \e[0m"
+echo -e "\e[0;33m 18. Check your Source List File///// \e[0m"
 echo
 cat /etc/apt/sources.list
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 19. Check for broken dependencies \e[0m"
+echo -e "\e[0;33m 19. Check for Broken Dependencies///// \e[0m"
 echo
 apt-get check
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 20. MOTD banner message \e[0m"
+echo -e "\e[0;33m 20. MOTD Banner Message///// \e[0m"
 echo
 cat /etc/motd
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 21. List user names \e[0m"
+echo -e "\e[0;33m 21. List User Names///// \e[0m"
 echo
 cut -d: -f1 /etc/passwd
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 22. Check for null passwords \e[0m"
+echo -e "\e[0;33m 22. Check for Null Passwords///// \e[0m"
 echo
 users="$(cut -d: -f 1 /etc/passwd)"
 for x in $users
@@ -169,19 +169,19 @@ done
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 23. IP routing table \e[0m"
+echo -e "\e[0;33m 23. IP Routing Table///// \e[0m"
 echo
 route
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 24. Kernel Messages \e[0m"
+echo -e "\e[0;33m 24. Kernel Messages///// \e[0m"
 echo
 dmesg
 echo
 echo "###############################################"
 echo
-echo -e "\e[0;33m 25. See upgradable packages \e[0m"
+echo -e "\e[0;33m 25. Check Upgradable Packages///// \e[0m"
 echo
 apt list --upgradeable
 echo
