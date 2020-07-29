@@ -185,6 +185,12 @@ echo -e "\e[0;33m 25. Check Upgradable Packages///// \e[0m"
 echo
 apt list --upgradeable
 echo
+echo "###############################################"
+echo
+echo -e "\e[0;33m 26. CPU/System Information///// \e[0m"
+echo
+cat /proc/cpuinfo
+echo
 END=$(date +%s)
 DIFF=$(( $END - $START ))
 echo Script completed in $DIFF seconds :
@@ -194,3 +200,6 @@ date
 echo
 
 exit 0;
+
+
+CPU/System Information
