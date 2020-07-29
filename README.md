@@ -33,3 +33,4 @@
 <p>&#9632; 23. IP Routing Table </p>
 <p>&#9632; 24. Kernel Messages </p>
 <p>&#9632; 25. Check Upgradable Packages </p>
+<p>&#9632; 26. CPU/System Information </p>
