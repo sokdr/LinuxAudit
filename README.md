@@ -9,8 +9,7 @@
 <p>===============================================================</p>
 <p><h4>The script checks for the following information:</h4></p>
 
-<p>&#9632; 1. Linux Kernel Information </p>
-<p>&#9632; 2. Current User and ID information </p>
+&#9632; 1. Linux Kernel Information, &#9632; 2. Current User and ID information
 <p>&#9632; 3. Linux Distribution Information </p>
 <p>&#9632; 4. List Current Logged In Users </p>
 <p>&#9632; 5. Uptime Information </p>
