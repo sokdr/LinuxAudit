@@ -4,7 +4,7 @@
 <p><h5>***Tested on Debian OS***</p></h5>
 <p><h5>Bash script to gather information about your Linux System.</h5></p>
 <h5>Open the terminal and enter the following command</h5>
-<h5><strong>chmod +x LinuxAudit.sh"</strong></h5>
+<h5><mark>chmod +x LinuxAudit.sh"</mark></h5>
 <h5>Execute ./LinuxAudit.sh with root privileges.</h5>
 <p>===============================================================</p>
 <p><h4>The script checks for the following information:</h4></p>
