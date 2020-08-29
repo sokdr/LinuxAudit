@@ -202,6 +202,12 @@ cat /etc/hosts.deny
 echo
 echo "###############################################"
 echo
+echo -e "\e[0;33m 28. Failed login attempts///// \e[0m"
+echo
+grep --color "failure" /var/log/auth.log
+echo
+echo "###############################################"
+echo
 END=$(date +%s)
 DIFF=$(( $END - $START ))
 echo Script completed in $DIFF seconds :
