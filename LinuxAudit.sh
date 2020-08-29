@@ -191,6 +191,17 @@ echo -e "\e[0;33m 26. CPU/System Information///// \e[0m"
 echo
 cat /proc/cpuinfo
 echo
+echo "###############################################"
+echo
+echo -e "\e[0;33m 27. TCP wrappers///// \e[0m"
+echo
+cat /etc/hosts.allow
+echo "///////////////////////////////////////"
+echo
+cat /etc/hosts.deny
+echo
+echo "###############################################"
+echo
 END=$(date +%s)
 DIFF=$(( $END - $START ))
 echo Script completed in $DIFF seconds :
@@ -200,6 +211,3 @@ date
 echo
 
 exit 0;
-
-
-CPU/System Information
