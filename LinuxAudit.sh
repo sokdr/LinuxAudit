@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # sokdr
-#https://github.com/sokdr
+# https://github.com/sokdr
 #
 tput clear
 trap ctrl_c INT
