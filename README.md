@@ -1,11 +1,11 @@
 # LinuxAudit
 <p>===============================================================</p>
-<h2>--Security Audit for Linux Systems--</h2>
+<h4> --Security Audit for Linux Systems-- </h4>
 <p></p>
 <p><h4>Bash script to gather information about your Linux System.</h4</p>
-<h4Open the terminal and enter the following command</h4
-<h4<em>chmod +x LinuxAudit.sh"</em></h4
-<h4Execute <em>./LinuxAudit.sh</em> with root privileges.</h4
+<h4>Open the terminal and enter the following command</h4>
+<h4>chmod +x LinuxAudit.sh"</h4>
+<h4>Execute ./LinuxAudit.sh</em> with root privileges.</h4>
 <p>===============================================================</p>
 <p><h4>The script checks for the following information:</h4></p>
 
