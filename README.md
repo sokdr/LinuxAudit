@@ -39,11 +39,11 @@ Linux system which can also help you in the process of hardening.**
 
 ## Usage
 
-**Open the terminal and enter the below command**
+**Open the terminal and enter the below command to change permissions on the script.**
 
 _chmod +x LinuxAudit.sh_
 
-**Then execute _./LinuxAudit.sh_ with root privileges
+**Then execute _./LinuxAudit.sh_ with root privileges.
 
 
 ## Testing
