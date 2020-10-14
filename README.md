@@ -43,7 +43,7 @@ Linux system which can also help you in the process of hardening.**
 
 _chmod +x LinuxAudit.sh_
 
-**Then execute ./LinuxAudit.sh with root privileges
+**Then execute _./LinuxAudit.sh_ with root privileges
 
 
 ## Testing
