@@ -1,7 +1,7 @@
 ## Description 
 
 **This is a Security Audit bash script to gather instantly information about your
-Linux system which can also help you in the processes of hardening.**
+Linux system which can also help you in the process of hardening.**
 
 ![](https://raw.githubusercontent.com/sokdr/LinuxAudit/master/LinuxAudit.PNG)
 
