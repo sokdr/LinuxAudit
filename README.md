@@ -3,6 +3,8 @@
 **This is a Security Audit bash script to gather instantly information about your
 Linux system which can also help you in the processes of hardening.**
 
+![]()
+
 **The script checks for the following information:**
 
 1. Linux Kernel Information. 
