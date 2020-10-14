@@ -3,7 +3,7 @@
 **This is a Security Audit bash script to gather instantly information about your
 Linux system which can also help you in the process of hardening.**
 
-![](https://raw.githubusercontent.com/sokdr/LinuxAudit/master/LinuxAudit.PNG)
+![LinuxAudit](https://user-images.githubusercontent.com/20625004/96034109-b8d12000-0e69-11eb-81cd-16bcb1d3a412.PNG)
 
 **The script checks for the following information:**
 
