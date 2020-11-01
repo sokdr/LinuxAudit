@@ -43,7 +43,7 @@ Linux system which can also help you in the process of hardening.**
 
 ```chmod +x LinuxAudit.sh```
 
-**Execute ```./LinuxAudit.sh```
+Execute ```./LinuxAudit.sh```
 
 
 ## Testing
