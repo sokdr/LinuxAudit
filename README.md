@@ -4,7 +4,9 @@
 Linux system which can also help you in the process of hardening.**
 
 
-![linuxaudit](https://user-images.githubusercontent.com/20625004/227922992-f32239b8-c2f3-40c9-822e-30e82519c026.png)
+![linux](https://github.com/user-attachments/assets/ec5251e0-7fa7-4434-b123-da84f41035f8)
+
+
 
 **The script checks for the following information:**
 
