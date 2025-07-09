@@ -239,6 +239,22 @@ perform_audit() {
     echo
     echo "###############################################"
     echo
+    echo -e "\e[0;33m 29. Cron jobs///// \e[0m"
+    echo
+    echo "Crontab User"
+    echo
+    crontab -l
+    echo
+    echo "Crontab System wide"
+    ls -la /etc/cron*
+    echo
+    echo "###############################################"
+    echo
+    echo -e "\e[0;33m 30. Shells used by users///// \e[0m"
+    echo
+    awk -F: '{print $1, $7}' /etc/passwd
+    echo
+    echo "###############################################"
 
 }
 
