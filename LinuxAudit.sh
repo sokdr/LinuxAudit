@@ -255,6 +255,12 @@ perform_audit() {
     awk -F: '{print $1, $7}' /etc/passwd
     echo
     echo "###############################################"
+    echo
+    echo -e "\e[0;33m 31. Services run by Root///// \e[0m"
+    echo
+    ps -U root -u root u
+    echo
+    echo "###############################################"
 
 }
 
