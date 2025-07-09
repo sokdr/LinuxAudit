@@ -38,6 +38,8 @@ Linux system which can also help you in the process of hardening.**
 26. CPU/System Information. 
 27. TCP wrappers. 
 28. Failed login attempts.
+29. Cron jobs
+30. Shells used by users
 
 
 ## Usage
