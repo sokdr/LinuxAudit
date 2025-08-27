@@ -104,7 +104,7 @@ perform_audit() {
     echo
     echo -e "\e[0;33m 7. Active Internet Connections and Open Ports///// \e[0m"
     echo
-    netstat -natp
+    ss -tulnp
     echo
     echo "###############################################"
     echo
@@ -122,7 +122,7 @@ perform_audit() {
     echo
     echo -e "\e[0;33m 10. History (Commands)///// \e[0m"
     echo
-    history
+    history | tail -n 100
     echo
     echo "###############################################"
     echo
@@ -150,7 +150,8 @@ perform_audit() {
     echo
     echo "###############################################"
     echo -e "\e[0;33m 15. List All Packages Installed///// \e[0m"
-    apt-cache pkgnames
+    echo 
+    apt-cache pkgnames >> "LinuxAudit_Check15_Packages_Installed.txt"
     echo
     echo "###############################################"
     echo
@@ -208,7 +209,7 @@ perform_audit() {
     echo
     echo -e "\e[0;33m 24. Kernel Messages///// \e[0m"
     echo
-    dmesg
+    dmesg | tail -n 50
     echo
     echo "###############################################"
     echo
@@ -268,21 +269,25 @@ perform_audit() {
     echo "###############################################"
     echo
     echo -e "\e[0;33m 33. Password aging///// \e[0m"
+    echo
     awk -F: '{ print $1 }' /etc/passwd | xargs -n1 chage -l 2>/dev/null
     echo
     echo "###############################################"
     echo
     echo -e "\e[0;33m 34. World writable files///// \e[0m"
+    echo
     find / -xdev -type f -perm -0002 2>/dev/null
     echo
     echo "###############################################"
     echo
     echo -e "\e[0;33m 35. SUID/SGID binaries///// \e[0m"
+    echo
     find / -xdev \( -perm -4000 -o -perm -2000 \) -type f 2>/dev/null
     echo
     echo "###############################################"
     echo
     echo -e "\e[0;33m 36. Sysctl security params///// \e[0m"
+    echo
     sysctl kernel.randomize_va_space
     sysctl net.ipv4.conf.all.accept_redirects
     sysctl net.ipv4.conf.all.rp_filter
@@ -290,16 +295,19 @@ perform_audit() {
     echo "###############################################"
     echo
     echo -e "\e[0;33m 37. ARP table///// \e[0m"
+    echo
     ip neigh show
     echo
     echo "###############################################"
     echo
     echo -e "\e[0;33m 38. Last reboots///// \e[0m"
+    echo
     last reboot | head
     echo
     echo "###############################################"
     echo
     echo -e "\e[0;33m 39. Dangerous dotfiles///// \e[0m"
+    echo
     find /home /root -maxdepth 2 \( -name .rhosts -o -name .netrc -o -name .forward \) 2>/dev/null
     echo
     echo "###############################################"
@@ -325,3 +333,4 @@ date
 echo
 
 exit 0
+
