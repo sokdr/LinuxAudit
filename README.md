@@ -9,45 +9,46 @@ This Bash script gathers detailed information about your Linux system **instantl
 
 
 🛡️ The script checks for the following information:
-1. 🐧 Linux Kernel Information
-2. 👤 Current User and ID Information
-3. 📦 Linux Distribution Information
-4. 👥 List Current Logged In Users
-5. ⏱️ Uptime Information
-6. 🔧 Running Services
-7. 🌐 Active Internet Connections and Open Ports
-8. 💽 Check Available Space
-9. 🧠 Check Memory
-10. 📜 Command History
-11. 🌐 Network Interfaces
-12. 🛡️ IPTables Information
-13. 🧾 Check Running Processes
-14. 🔐 Check SSH Configuration
-15. 📦 List All Packages Installed
-16. ⚙️ Network Parameters
-17. 🧷 Password Policies
-18. 📁 Check Your Source List File
-19. ❗ Check for Broken Dependencies
-20. 🎭 MOTD Banner Message
-21. 👥 List User Names
-22. 🚫 Check for Null Passwords
-23. 🛣️ IP Routing Table
-24. 📟 Kernel Messages
-25. 🆙 Check Upgradable Packages
-26. 🧮 CPU / System Information
-27. 🧱 TCP Wrappers
-28. 🔐 Failed Login Attempts
-29. 🕒 Cron Jobs
-30. 🐚 Shells Used by Users
-31. 🛠️ Services Run by Root
-32. 👑 UID 0 users other than root
-33. ⏳ Password aging
-34. 📂 World writable files
-35. 🧷 SUID/SGID binaries
-36. 🛡️ Sysctl security params
-37. 🌐 ARP table
-38. 🔄 Last reboots
-39. ⚠️ Dangerous dotfiles
+
+🐧 Linux Kernel Information
+👤 Current User and ID Information
+📦 Linux Distribution Information
+👥 List Current Logged In Users
+⏱️ Uptime Information
+🔧 Running Services
+🌐 Active Internet Connections and Open Ports
+💽 Check Available Space
+🧠 Check Memory
+📜 Command History
+🌐 Network Interfaces
+🛡️ IPTables Information
+🧾 Check Running Processes
+🔐 Check SSH Configuration
+📦 List All Packages Installed
+⚙️ Network Parameters
+🧷 Password Policies
+📁 Check Your Source List File
+❗ Check for Broken Dependencies
+🎭 MOTD Banner Message
+👥 List User Names
+🚫 Check for Null Passwords
+🛣️ IP Routing Table
+📟 Kernel Messages
+🆙 Check Upgradable Packages
+🧮 CPU / System Information
+🧱 TCP Wrappers
+🔐 Failed Login Attempts
+🕒 Cron Jobs
+🐚 Shells Used by Users
+🛠️ Services Run by Root
+👑 UID 0 users other than root
+⏳ Password aging
+📂 World writable files
+🧷 SUID/SGID binaries
+🛡️ Sysctl security params
+🌐 ARP table
+🔄 Last reboots
+⚠️ Dangerous dotfiles
 
 
 
