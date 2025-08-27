@@ -39,15 +39,14 @@ Linux system which can also help you in the process of hardening.**
 29. 🕒 Cron Jobs
 30. 🐚 Shells Used by Users
 31. 🛠️ Services Run by Root
-32. 🛠️ Services run by Root
-33. 👑 UID 0 users other than root
-34. ⏳ Password aging
-35. 📂 World writable files
-36. 🧷 SUID/SGID binaries
-37. 🛡️ Sysctl security params
-38. 🌐 ARP table
-39. 🔄 Last reboots
-40. ⚠️ Dangerous dotfiles
+32. 👑 UID 0 users other than root
+33. ⏳ Password aging
+34. 📂 World writable files
+35. 🧷 SUID/SGID binaries
+36. 🛡️ Sysctl security params
+37. 🌐 ARP table
+38. 🔄 Last reboots
+39. ⚠️ Dangerous dotfiles
 
 
 
