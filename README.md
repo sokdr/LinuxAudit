@@ -8,85 +8,85 @@ This Bash script gathers detailed information about your Linux system **instantl
 ![linux](https://github.com/user-attachments/assets/ec5251e0-7fa7-4434-b123-da84f41035f8)
 
 
-🛡️ The script checks for the following information:
+The script checks for the following information:
 
-🐧 Linux Kernel Information
+Linux Kernel Information
 
-👤 Current User and ID Information
+Current User and ID Information
 
-📦 Linux Distribution Information
+Linux Distribution Information
 
-👥 List Current Logged In Users
+List Current Logged In Users
 
-⏱️ Uptime Information
+Uptime Information
 
-🔧 Running Services
+Running Services
 
-🌐 Active Internet Connections and Open Ports
+Active Internet Connections and Open Ports
 
-💽 Check Available Space
+Check Available Space
 
-🧠 Check Memory
+Check Memory
 
-📜 Command History
+Command History
 
-🌐 Network Interfaces
+Network Interfaces
 
-🛡️ IPTables Information
+IPTables Information
 
-🧾 Check Running Processes
+Check Running Processes
 
-🔐 Check SSH Configuration
+Check SSH Configuration
 
-📦 List All Packages Installed
+List All Packages Installed
 
-⚙️ Network Parameters
+Network Parameters
 
-🧷 Password Policies
+Password Policies
 
-📁 Check Your Source List File
+Check Your Source List File
 
-❗ Check for Broken Dependencies
+Check for Broken Dependencies
 
-🎭 MOTD Banner Message
+MOTD Banner Message
 
-👥 List User Names
+List User Names
 
-🚫 Check for Null Passwords
+Check for Null Passwords
 
-🛣️ IP Routing Table
+IP Routing Table
 
-📟 Kernel Messages
+Kernel Messages
 
-🆙 Check Upgradable Packages
+Check Upgradable Packages
 
-🧮 CPU / System Information
+CPU / System Information
 
-🧱 TCP Wrappers
+TCP Wrappers
 
-🔐 Failed Login Attempts
+Failed Login Attempts
 
-🕒 Cron Jobs
+Cron Jobs
 
-🐚 Shells Used by Users
+Shells Used by Users
 
-🛠️ Services Run by Root
+Services Run by Root
 
-👑 UID 0 users other than root
+UID 0 users other than root
 
-⏳ Password aging
+Password aging
 
-📂 World writable files
+World writable files
 
-🧷 SUID/SGID binaries
+SUID/SGID binaries
 
-🛡️ Sysctl security params
+ Sysctl security params
 
-🌐 ARP table
+ARP table
 
-🔄 Last reboots
+Last reboots
 
-⚠️ Dangerous dotfiles
+Dangerous dotfiles
 
 
 
