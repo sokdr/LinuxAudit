@@ -2,23 +2,35 @@
 #sokdr
 # Clear the screen
 tput clear
+
 # Trap Ctrl+C
 trap ctrl_c INT
+
 # Function to handle Ctrl+C
 function ctrl_c() {
   echo "** You pressed Ctrl+C... Exiting"
   exit 0
 }
+
 # added path inside script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-echo "Script dir is: $SCRIPT_DIR"
 
-echo "_  _         _     _ _ _  "
-echo "| | (_)_ _ _ ___ __ /_\ _ _ __| (_) |_ "
-echo "| |__| |  \ || \ \ / / _ \ || / _ | | _|"
-echo "|____|_|_||_\_ _/_\_\/_/ \_\_ _\__ _|_|\__|"
+print_banner(){
+cat << "EOF"
+#                                 #                         
+#       # #    # #    # #    #   # #   #    # #####  # #####
+#       # ##   # #    #  #  #   #   #  #    # #    # #   #
+#       # # #  # #    #   ##   #     # #    # #    # #   #
+#       # #  # # #    #   ##   ####### #    # #    # #   #
+#       # #   ## #    #  #  #  #     # #    # #    # #   #
+####### # #    #  ####  #    # #     #  ####  #####  #   #
+EOF
+}
+
+print_banner
 echo
 echo "Welcome to security audit of your Linux machine:"
+
 echo
 echo "Script will automatically gather the required info:"
 echo "The checklist can help you in the process of hardening your system:"
@@ -39,6 +51,7 @@ while true; do
   *) echo "Wrong option" ;;
   esac
 done
+
 
 echo
 echo "OK... $HOSTNAME ...let's continue, please wait for it to finish:"
@@ -236,6 +249,7 @@ Users_and_Groups_Checks
 Networking_Checks
 Services_Checks
 Security_checks
+    
 }
 
 case "$output" in
