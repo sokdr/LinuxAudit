@@ -91,7 +91,9 @@ Dangerous dotfiles
 
 ## Output 
 
-User can save the output in a txt file or view instanly from the terminal the output of the scipt.
+User can save the output in a ```txt file``` or view instanly from the ```terminal``` the output of the scipt.
+
+The txt file is saved within the folder of the script.
 
 
 
@@ -102,6 +104,7 @@ User can save the output in a txt file or view instanly from the terminal the ou
 ```chmod +x LinuxAudit.sh```
 
 Execute ```./LinuxAudit.sh```
+
 
 
 ## Testing
