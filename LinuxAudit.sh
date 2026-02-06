@@ -253,7 +253,7 @@ Security_checks
 }
 
 case "$output" in
-	1) perform_audit > "$SCRIPT_DIR/LinuxAudit.txt" 2>&1 ;;
+	1) perform_audit  > "$SCRIPT_DIR/LinuxAudit.txt" 2>&1 ;;
 	2) perform_audit ;;
 esac
 echo
