@@ -89,6 +89,10 @@ Last reboots
 
 Dangerous dotfiles
 
+## Output 
+
+User can save the output in a txt file or view instanly from the terminal the output of the scipt.
+
 
 
 ## Usage
