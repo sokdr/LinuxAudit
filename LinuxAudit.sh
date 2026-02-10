@@ -167,7 +167,7 @@ perform_audit() {
     
 
     printf "\n\e[0;33m[+] Network Interfaces\e[0m\n"
-    ifconfig -a
+    ip a
 
 
     printf "\n\e[0;33m[+] IPtable Information\e[0m\n"
