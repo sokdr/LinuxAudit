@@ -5,7 +5,8 @@
 This Bash script gathers detailed information about your Linux system **instantly** and can help you during the **hardening process**.
 
 
-<img width="802" height="436" alt="linuxaudit_screen" src="https://github.com/user-attachments/assets/a6e184f4-4a87-45f6-9d91-ad5ef873d08d" />
+<img width="714" height="402" alt="linuxaudit_screen" src="https://github.com/user-attachments/assets/634bac3b-d89d-4caa-8b1b-ec91b1caf9fd" />
+
 
 
 
