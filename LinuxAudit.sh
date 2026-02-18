@@ -3,14 +3,16 @@
 # Clear the screen
 tput clear
 
-# Trap Ctrl+C
-trap ctrl_c INT
 
 # Function to handle Ctrl+C
-function ctrl_c() {
+ctrl_c() {
   echo "** You pressed Ctrl+C... Exiting"
   exit 0
 }
+
+
+# Trap Ctrl+C
+trap ctrl_c INT
 
 # added path inside script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
