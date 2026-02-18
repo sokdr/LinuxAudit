@@ -36,8 +36,6 @@ echo "Script will automatically gather the required info:"
 echo "The checklist can help you in the process of hardening your system:"
 echo "Note: it has been tested for Debian Linux Distro:"
 echo
-sleep 3
-echo
 
 while true; do
   echo "Would you like to save the output? " 
@@ -74,7 +72,7 @@ perform_audit() {
 
     printf "\n\e[0;33m[+] Linux Distribution Information\e[0m\n"
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
-    lsb_release -a
+    cat /etc/os-release
     echo
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
     echo
@@ -282,7 +280,7 @@ perform_audit() {
 
     printf "\n\e[0;33m[+] IP Routing Table\e[0m\n"
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
-    route
+    ip route
     echo
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
     echo
@@ -299,7 +297,7 @@ perform_audit() {
   Services_Checks(){
     printf "\n\e[0;33m[+] Running Services\e[0m\n"
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
-    service --status-all |grep "+"
+    systemctl list-units --type=service --state=running
     echo
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
     echo
