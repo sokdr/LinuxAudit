@@ -39,15 +39,17 @@ echo "The checklist can help you in the process of hardening your system:"
 echo
 
 while true; do
-  echo "Would you like to save the output? " 
-  echo "1) txt"
-  echo "2) terminal output all"
-  echo "3) terminal compact"
-  read -p "Select option 1, 2 or 3 :> " output
+  echo "Available Options " 
+  echo "1) Save output to txt file"
+  echo "2) Terminal output all - Full output to terminal"
+  echo "3) Terminal compact - Condensed summary to terminal"
+  echo "4) Quit"
+  read -p "Select option 1, 2 , 3 or 4 :> " output
   echo
 
   case "$output" in
   1|2|3) break ;;
+  4) echo "Exiting..."; exit 0 ;;
   *) echo "Wrong option" ;;
   esac
 done
@@ -55,8 +57,6 @@ done
 
 echo
 echo "OK... $HOSTNAME ...let's continue:"
-echo
-sleep 3
 echo
 echo "Script Starts ;)"
 START=$(date +%s)
@@ -334,7 +334,7 @@ perform_audit() {
     users="$(cut -d: -f 1 /etc/passwd)"
     for x in $users
     do
-    passwd -S $x |grep "NP"
+    passwd -S "$x" |grep "NP"
     done
     echo
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
@@ -358,7 +358,10 @@ perform_audit() {
 
     printf "\n\e[0;33m[+] Password aging\e[0m\n"
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
-    awk -F: '{ print $1 }' /etc/passwd | xargs -n1 chage -l 2>/dev/null
+	while IFS=: read -r user _; do
+	    chage -l "$user" 2>/dev/null
+	done < /etc/passwd
+
     echo
     printf "\n\e[0;33m ++++++++++++++++++++++++++ \e[0m\n"
     echo
@@ -478,7 +481,9 @@ case "$output" in
 	1) perform_audit  > "$SCRIPT_DIR/LinuxAudit.txt" 2>&1 ;;
 	2) perform_audit ;;
     3) perform_audit_compact ;;
+    4) exit 0;
 esac
+
 echo
 END=$(date +%s)
 DIFF=$(( END - START ))
