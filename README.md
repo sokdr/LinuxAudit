@@ -6,8 +6,9 @@ This Bash script gathers detailed information about your Linux system **instantl
 
 
 
-<img width="848" height="438" alt="linuxaudit_screen" src="https://github.com/user-attachments/assets/b26bc877-9d4c-40e9-af31-29f69c51bfce" />
 
+
+<img width="697" height="454" alt="linuxaudit_screen" src="https://github.com/user-attachments/assets/7e91aaa5-1ec5-414d-a698-130230378038" />
 
 
 
