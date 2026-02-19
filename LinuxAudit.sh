@@ -36,7 +36,6 @@ echo "Welcome to security audit of your Linux machine:"
 echo
 echo "Script will automatically gather the required info:"
 echo "The checklist can help you in the process of hardening your system:"
-echo "Note: it has been tested for Debian Linux Distro:"
 echo
 
 while true; do
