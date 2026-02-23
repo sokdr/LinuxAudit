@@ -478,7 +478,7 @@ hardware
 }
 
 case "$output" in
-	1) perform_audit  > "$SCRIPT_DIR/LinuxAudit.txt" 2>&1 ;;
+	1) perform_audit  > "$SCRIPT_DIR/LinuxAudit_$HOSTNAME_$(date +%Y%m%d%H%M%S).txt" 2>&1 ; echo "Audit results saved to LinuxAudit_$HOSTNAME_$(date +%Y%m%d%H%M%S).txt" ;;
 	2) perform_audit ;;
     3) perform_audit_compact ;;
     4) exit 0;
